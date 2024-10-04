@@ -3,7 +3,7 @@
 
 ## OCR & Captioning Script
 
-This repository contains a Python script for performing OCR (Optical Character Recognition) and image captioning tasks. The code utilizes various libraries and models to extract text from images and generate captions for those images.
+This repository contains a Python script for performing OCR (Optical Character Recognition) and image captioning tasks. The code utilizes various libraries and models to extract text from images and generate captions for those images. Also this code bypasses the issues faced due to version mismatch due between numpy and 
 
 ## Features
 - **OCR**: Extract text from images using PaddleOCR.
@@ -16,11 +16,6 @@ Before you can run the script, you will need the following installed:
 - Python 3.x
 - Required libraries:
   - PaddleOCR
-  - OpenCV
-  - PIL (Python Imaging Library)
-  - PyTorch
-  - Transformers
-  - Matplotlib
   - Any additional libraries mentioned in `requirements.txt`
 
 To install all required libraries, run:
